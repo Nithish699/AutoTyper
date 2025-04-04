@@ -1,0 +1,61 @@
+/* Custom styles for the sliders */
+.form-range {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Slider Track */
+.form-range::-webkit-slider-runnable-track {
+    background: #b2c7dd; /* Blue color for the track */
+    height: 6px; /* Thicker track */
+    border-radius: 3px; /* Rounded corners */
+}
+
+.form-range::-moz-range-track {
+    background: #007bff; /* Blue color for the track */
+    height: 6px; /* Thicker track */
+    border-radius: 3px; /* Rounded corners */
+}
+
+.form-range::-ms-track {
+    background: #007bff; /* Blue color for the track */
+    height: 6px; /* Thicker track */
+    border-radius: 3px; /* Rounded corners */
+}
+
+/* Slider Thumb */
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; /* Larger thumb */
+    height: 20px; /* Larger thumb */
+    background: #007bff; /* Blue color for the thumb */
+    border: 2px solid #fff; /* White border for contrast */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer;
+    margin-top: -7px; /* Center the thumb vertically */
+}
+
+.form-range::-moz-range-thumb {
+    width: 20px; /* Larger thumb */
+    height: 20px; /* Larger thumb */
+    background: #007bff; /* Blue color for the thumb */
+    border: 2px solid #fff; /* White border for contrast */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer;
+}
+
+.form-range::-ms-thumb {
+    width: 20px; /* Larger thumb */
+    height: 20px; /* Larger thumb */
+    background: #007bff; /* Blue color for the thumb */
+    border: 2px solid #fff; /* White border for contrast */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer;
+}
+
+/* Labels for sliders */
+#delayValue, #speedValue {
+    font-weight: bold;
+    color: #007bff;
+}
