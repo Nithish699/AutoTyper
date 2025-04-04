@@ -21,11 +21,11 @@ Auto Typer is a tool designed to overcome certain copy-paste restrictions impose
     ```
 3. Install dependencies:
     ```bash
-    npm install
+    pip install -r requirements.txt
     ```
 4. Run the application:
     ```bash
-    npm start
+    python main.py
     ```
 
 ## Usage
